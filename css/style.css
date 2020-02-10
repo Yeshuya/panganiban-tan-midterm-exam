@@ -1,60 +1,77 @@
+@font-face{
+    font-family: "Acephimere Regular";
+    src: url('../fonts/Acephimere.otf');
+}
 body{
-    background-color: #D18E34;
+    background-color: rgb(228, 228, 228);
+}
+a {
+    color: rgb(54, 54, 54);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(54, 54, 54);
+    text-decoration: underline;
 }
 .titleBox {
-    background-color: #EAB469;
-    color: #fff;
+    background-image: url('../img/Your Daily Bread Logo.png');
+    background-size: 400px;
+    background-repeat: no-repeat; 
+    background-color: #fff;
+    border-bottom: 2px solid rgb(219, 219, 219);
     width: 101%;
-    height: 5%;
+    height: 8%;
     margin-top: -0.5%;
     margin-left: -0.5%;
 }
 .middleLeftBox {
-    background-color: #D0A05E;
-    color: #fff;
+    margin-top: 3.7%;
+    color: rgb(54, 54, 54);
     width: 50%;
     height: 100%;
     margin-left: 11%;
     float: left;
 }
 .article {
+    font-family: "Acephimere Regular";
     margin-left: -5%;
     padding: 5%;
     height: 60%;
-    background-color: rgb(207, 173, 124);
-    border: 1px solid #fff;
+    background-color: #fff;
+    color: rgb(54, 54, 54);
 }
 .middleRightBox {
-    position: static;
-    background-color: #957345;
-    color: #fff;
+    margin-top: 5%;
+    margin-left: 1%;
+    color: rgb(54, 54, 54);
     width: 25%;
     height: 100%;
     float: left;
 }
 .VoTD {
+    font-family: "Acephimere Regular";
     text-align: center;
     vertical-align: middle;
-    height: 35%;
-    background-color: rgb(207, 173, 124);
-    border: 1px solid #fff;
-    border-radius: 20px;
+    padding: 4%;
+    height: 22%;
+    background-color: #fff;
+    color: rgb(54, 54, 54);
 }
 .Sermons {
+    font-family: "Acephimere Regular";
     text-align: center;
     vertical-align: middle;
-    padding: 10%;
-    height: 55%;
-    background-color: rgb(207, 173, 124);
-    border: 1px solid #fff;
-    border-radius: 20px;
+    padding: 4%;
+    height: 22%;
+    background-color: #fff;
+    color: rgb(54, 54, 54);
 }
 .DailyDevotion {
+    font-family: "Acephimere Regular";
     text-align: center;
     vertical-align: middle;
-    padding: 10%;
-    height: 25%;
-    background-color: rgb(207, 173, 124);
-    border: 1px solid #fff;
-    border-radius: 20px;
+    padding: 4%;
+    height: 22%;
+    background-color: #fff;
+    color: rgb(54, 54, 54);
 }

@@ -1,0 +1,61 @@
+body{
+    background-color: #D18E34;
+}
+.titleBox {
+    background-color: #EAB469;
+    color: #fff;
+    width: 101%;
+    height: 5%;
+    margin-top: -0.5%;
+    margin-left: -0.5%;
+}
+.middleLeftBox {
+    background-color: #D0A05E;
+    color: #fff;
+    width: 50%;
+    height: 100%;
+    margin-left: 11%;
+    float: left;
+}
+.article {
+    margin-left: -5%;
+    padding: 5%;
+    height: 60%;
+    background-color: rgb(207, 173, 124);
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+.middleRightBox {
+    position: static;
+    background-color: #957345;
+    color: #fff;
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.VoTD {
+    text-align: center;
+    vertical-align: middle;
+    height: 35%;
+    background-color: rgb(207, 173, 124);
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+.Sermons {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10%;
+    height: 55%;
+    background-color: rgb(207, 173, 124);
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+.DailyDevotion {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10%;
+    height: 25%;
+    background-color: rgb(207, 173, 124);
+    border: 1px solid #fff;
+    border-radius: 20px;
+}

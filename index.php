@@ -80,7 +80,7 @@
                     <br>
                     <?php 
                         $count1++;
-                        if($count1 == 2) //limit output to 10
+                        if($count1 == 10) //limit output to 10
                             break;
                     }
                     ;?>		
@@ -96,10 +96,10 @@
                         $link = $value->getElementsByTagName("link")->item(0)->nodeValue;
                         $title = $value->getElementsByTagName("title")->item(0)->nodeValue;
                     ?>
-                    <a href="<?php echo $link;?>"><b><?php echo $title;?> </b></a>
+                    <a href="<?php echo $link;?>"><b><?php echo $title;?></b></a><br>
                     <?php 
                         $count2++;
-                        if($count2 == 1) //limit output to 10
+                        if($count2 == 7) //limit output to 10
                             break;
                     }
                     ;?>

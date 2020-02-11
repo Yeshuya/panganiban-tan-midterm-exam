@@ -19,12 +19,12 @@ a:hover {
 }
 .titleBox {
     background-image: url('../img/Your Daily Bread Logo.png');
-    background-size: 400px;
+    background-size: 600px;
     background-repeat: no-repeat; 
     background-color: #fff;
     border-bottom: 2px solid rgb(219, 219, 219);
     width: 101%;
-    height: 8%;
+    height: 18%;
     margin-top: -0.5%;
     margin-left: -0.5%;
 }

@@ -6,7 +6,6 @@
     font-family: "SafiarSignature";
     src: url('../fonts/SafiarSignature.ttf');
 }
-
 body{
     background-color: rgb(228, 228, 228);
 }
@@ -39,7 +38,9 @@ a:hover {
 }
 .article {
     font-family: "Acephimere Regular";
-    border: 3px solid rgb(219, 219, 219);
+    border-top: 2px solid rgb(219, 219, 219);
+    border-left: 2px solid rgb(219, 219, 219);
+    border-right: 2px solid rgb(219, 219, 219);
     margin-left: -5%;
     padding: 5%;
     min-height: 55%;

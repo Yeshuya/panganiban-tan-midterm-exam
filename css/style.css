@@ -48,7 +48,7 @@ a:hover {
     color: rgb(54, 54, 54);
 }
 .middleRightBox {
-    margin-top: 0.5%;
+    margin-top: 0.55%;
     margin-left: 1%;
     color: rgb(54, 54, 54);
     width: 25%;
@@ -57,6 +57,7 @@ a:hover {
 }
 .VoTD {
     font-family: "Acephimere Regular";
+    border: 2px solid rgb(219, 219, 219);
     text-align: center;
     vertical-align: middle;
     padding: 4%;
@@ -66,6 +67,7 @@ a:hover {
 }
 .Sermons {
     font-family: "Acephimere Regular";
+    border: 2px solid rgb(219, 219, 219);
     text-align: center;
     vertical-align: middle;
     padding: 4%;
@@ -75,6 +77,7 @@ a:hover {
 }
 .DailyDevotion {
     font-family: "Acephimere Regular";
+    border: 2px solid rgb(219, 219, 219);
     text-align: center;
     vertical-align: middle;
     padding: 4%;

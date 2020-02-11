@@ -79,7 +79,7 @@
                     <br>
                     <?php 
                         $count1++;
-                        if($count1 == 10) //limit output to 10
+                        if($count1 == 9) //limit output to 10
                             break;
                     }
                     ;?>		

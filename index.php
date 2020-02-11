@@ -60,6 +60,7 @@
             ?>
             <br>
             <b style = "font-size: 40px; font-family: SafiarSignature;">Verse of the Day</b>
+		    <hr style = "width: 20%;">
             <br><br>
             <b><?php echo $bookname." ".$chapter.":".$verse;?></b><br>
             <?php echo $text;
@@ -69,6 +70,7 @@
             <br>
             <div class = "Sermons">
             <b style = "font-size: 40px; font-family: SafiarSignature;">Sermons</b>
+		    <hr style = "width: 20%;">
             <br><br>
                     <?php 
                         $count1 = 0;
@@ -89,6 +91,7 @@
             <br>
             <div class = "DailyDevotion">
             <b style = "font-size: 40px; font-family: SafiarSignature;">Daily Devotion</b>
+		    <hr style = "width: 20%;">
             <br><br>
                     <?php 
                         $count2 = 0;

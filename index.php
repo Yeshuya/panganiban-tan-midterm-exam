@@ -40,7 +40,6 @@
                 <a href="<?php echo $link;?>"><h2 class="header"><?php echo $title;?></h2></a>
 				<h3><?php echo $description;?></h3>
             </div>
-            <br>
             <?php
                 $count++;
                 if($count == 10) //limit output to 10

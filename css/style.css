@@ -39,6 +39,7 @@ a:hover {
 }
 .article {
     font-family: "Acephimere Regular";
+    border: 3px solid rgb(219, 219, 219);
     margin-left: -5%;
     padding: 5%;
     min-height: 55%;

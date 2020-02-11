@@ -38,7 +38,7 @@
             ?>
             <div class="article">
                 <a href="<?php echo $link;?>"><h2 class="header"><center><?php echo $title;?></h2></a></center>
-		    <hr style = "width: 90%">
+		    <hr style = "width: 60%">
 				<h3><?php echo $description;?></h3>
             </div>
             <?php

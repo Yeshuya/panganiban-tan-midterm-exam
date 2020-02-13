@@ -41,6 +41,7 @@
 		    <hr style = "width: 60%">
 				<h3><?php echo $description;?></h3>
             </div>
+		    <h3><?php echo $description;?></h3>
             <?php
                 $count++;
                 if($count == 10) //limit output to 10

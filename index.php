@@ -33,7 +33,8 @@
             foreach($content as $value){
 				$title = $value->getElementsByTagName("title")->item(0)->nodeValue;
 				$link = $value->getElementsByTagName("link")->item(0)->nodeValue;
-            	$description = $value->getElementsByTagName("description")->item(0)->nodeValue;
+            			$description = $value->getElementsByTagName("description")->item(0)->nodeValue;
+		    		$date = $value->getElementsByTagName("pubDate")->item(0)->nodeValue;
 		    
             ?>
             <div class="article">
@@ -41,6 +42,7 @@
 		    <hr style = "width: 60%">
 				<h3><?php echo $description;?></h3>
             </div>
+		    <h3><?php echo $date;?></h3>
             <?php
                 $count++;
                 if($count == 10) //limit output to 10
